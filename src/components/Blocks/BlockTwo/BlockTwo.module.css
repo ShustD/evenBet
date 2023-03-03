@@ -1,0 +1,15 @@
+ .block__two {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  background: #f75e5e;
+  color: #FFFFFF;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+position: absolute;
+right: 0;
+  }
+  
+ 

@@ -1,0 +1,28 @@
+  .button {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .btn__start {
+    font-size: 25px;
+    padding: 10px 30px;
+    min-width: 100px;
+    background: #55f50b;
+    border-radius: 5px;
+    transition: .3s;
+    box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.2);
+
+  }
+  .btn__start:hover {
+    transform: scale(1.2);
+  }
+  .btn__start:active {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.2) inset;
+  }
+  .btn__start:disabled {
+    background: #808080;
+    transform: none;
+    box-shadow: none;
+  }

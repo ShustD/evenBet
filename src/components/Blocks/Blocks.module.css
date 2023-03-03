@@ -1,0 +1,7 @@
+.blocks {
+    position: relative;
+    min-width: 600px;
+    display: flex;  
+    gap: 50px;
+    justify-content: space-between;
+  }
